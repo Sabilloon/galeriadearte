@@ -1,4 +1,13 @@
 {
+  "name": "galeriadearte",
+  "version": "1.0.0",
+  "description": "Descripción de tu aplicación",
+  "main": "server.cjs",
+  "scripts": {
+    "start": "node server.cjs"
+  },
+  "author": "JLRZ - MJS",
+  "license": "MIT",
   "dependencies": {
     "express-handlebars": "^7.1.2",
     "handlebars": "^4.7.8"
