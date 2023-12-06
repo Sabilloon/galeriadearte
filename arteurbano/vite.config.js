@@ -4,7 +4,6 @@ import fs from 'node:fs';
 import { ViteMinifyPlugin } from 'vite-plugin-minify';
 import htmlPurge from 'vite-plugin-purgecss';
 import handlebars from 'vite-plugin-handlebars';
-// Importa cualquier otro módulo que estés utilizando
 
 export default defineConfig({
   base: "/galeriadearte.git/",
@@ -26,6 +25,5 @@ export default defineConfig({
     }),
     htmlPurge({}),
     ViteMinifyPlugin({}),
-    // Agrega cualquier otro plugin que estés utilizando
   ],
 });
