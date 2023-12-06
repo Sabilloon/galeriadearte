@@ -3,15 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ pageTitle }}</title>
+    <title>FaQ</title>
     <link rel="stylesheet" href="style.css">
     <!-- Agrega enlaces a tus scripts JS si los necesitas -->
     <script src="script.js" defer></script>
     <script src="handles/slide.js"></script>
 </head>
 <body>
-    {{> header}}
-
+    <header>
+        <h1>Galería de Arte Metropolitano</h1>
+        <!-- Barra de navegación -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="inicio.hbs">Inicio</a></li>
+                <li><a href="about.hbs">Nosotros</a></li>
+                <li><a href="blog.hbs">Blog</a></li>
+                <li><a href="contactenos.hbs">Contactenos</a></li>
+                <li><a href="donaciones.hbs">Donaciones</a></li>
+                <li><a href="eventos.hbs">Eventos</a></li>
+                <li><a href="galeria.hbs">Galeria</a></li>
+                <li><a href="programas.hbs">Programas</a></li>
+                <li><a href="faq.hbs">FaQ</a></li>
+                
+            </ul>
+        </nav>
+    </header>
     <main>
         <div class="hero">
             <h2>Coleccion de arte del Museo Metropolitano</h2>
@@ -49,8 +65,10 @@
         </div>
         
     </main>
-    {{> footer}}
-
+    <footer>
+    <p>Derechos de autor © 2023 Galería de Arte. Todos los derechos reservados.</p>
+    
+</footer>
 
 </body>
 </html>
