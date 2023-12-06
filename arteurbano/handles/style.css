@@ -1,17 +1,17 @@
 body {
   font-family: Georgia, serif;
-  background-color: #fdf0d5;
-  color: #003049;
+  background-color: #bc6c25;
+  color: #283618;
 }
 /* Encabezados */
 h1,
 h2,
 h3 {
-  color: #780000;
+  color: #fefae0;
 }
 .navbar {
-  background-color: #780000;
-  color: #003049;
+  background-color: #fefae0;
+  color: #283618;
   padding: 10px;
   font-size: 18px;
 }
@@ -26,10 +26,10 @@ h3 {
 }
 .navbar ul li a {
   text-decoration: none;
-  color: #003049;
+  color: #283618;
 }
 .navbar ul li a:hover {
-  color: #c1121f;
+  color: #dda15e;
 }
 .hero h2 {
   font-size: 33px;
