@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ pageTitle }}</title>
-    <link rel="stylesheet" href="\Users\Usuario\Documents\Webs 2\Arteurbano\arteurbano\less\style.css">
+    <link rel="stylesheet" href="style.css">
     <!-- Agrega enlaces a tus scripts JS si los necesitas -->
     <script src="script.js" defer></script>
     <script src="handles/slide.js"></script>
 </head>
 <body>
-    {{> header}}
+
+    {{> handles/header}}
 
     <main>
         <div class="hero">
@@ -49,7 +50,7 @@
         </div>
         
     </main>
-    {{> footer}}
+    {{>footer}}
 
 
 </body>
