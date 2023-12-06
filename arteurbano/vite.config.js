@@ -7,7 +7,7 @@ import handlebars from 'vite-plugin-handlebars';
 // Importa cualquier otro módulo que estés utilizando
 
 export default defineConfig({
-  base: "/https://github.com/Sabilloon/galeriadearte.git/",
+  base: "/galeriadearte.git/",
   appType: 'mpa',
   build: {
     rollupOptions: {
